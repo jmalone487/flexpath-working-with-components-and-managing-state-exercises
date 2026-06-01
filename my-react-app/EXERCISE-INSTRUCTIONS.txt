@@ -39,6 +39,7 @@ Exercise 5: Handling State Changes
 Description: 
 
 Explain how state changes in the `Counter` component cause re-rendering.
+In React, when you call a state updater function like setCount, React schedules a re-render of the component. During the re-render, React calls the component function again, recalculates the JSX, and updates the UI to reflect the new state. Only the parts of the DOM that changed are updated, thanks to React’s virtual DOM diffing. This is why updating state in the Counter component causes the displayed count to update automatically.
 
 
 
