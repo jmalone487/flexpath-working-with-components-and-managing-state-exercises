@@ -59,6 +59,9 @@ Description:
 
 Discuss the benefits and drawbacks of using React `Context`.
 
+An Error Boundary is a special React component that catches JavaScript errors in its child components and prevents the entire app from crashing. It uses lifecycle methods like getDerivedStateFromError and componentDidCatch to detect errors and display a fallback UI. In this exercise, the ErrorBoundary wraps a component that intentionally throws an error, and instead of the app breaking, the fallback message "Something went wrong" is shown.
+
+
 
 
 Exercise 8: Using useEffect Hook
