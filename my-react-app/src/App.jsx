@@ -14,6 +14,10 @@ import WindowWidthDisplay from "./WindowWidthDisplay";
 
 import DataDisplayWithLoading from "./DataDisplayWithLoading";
 
+import RenderPropsExample from "./RenderPropsExample";
+
+import ModalExample from "./ModalExample";
+
 function App() {
   return (
     <ThemeProvider>
@@ -40,6 +44,12 @@ function App() {
           isLoading={false}
           data="Here is your loaded data!"
         />
+
+        {/* Exercise 10 */}
+        <RenderPropsExample />
+
+        {/* Exercise 11 */}
+        <ModalExample />
 
         {/* Exercise 7 */}
         <ErrorBoundary>
