@@ -79,6 +79,9 @@ Description:
 
 Explain how `useEffect` manages the lifecycle of functional components.
 
+A Higher-Order Component (HOC) is a function that takes a component and returns a new component with additional behavior. 
+In this exercise, the withLoading HOC checks the isLoading prop and either shows a loading message or renders the wrapped component. 
+This pattern allows us to reuse loading logic across multiple components without duplicating code.
 
 
 Exercise 10: Creating a Higher-Order Component (HOC)
